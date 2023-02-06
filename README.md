@@ -2,6 +2,21 @@
 
 *This is just a quick dump of all my links and socials - I'll make it look better at some point!*
 
+---
+
+# NOTICE REGARDING USE OF MY CODE/PROJECTS IN A.Is
+
+```
+All parties (including individuals, companies, organizations and any other groups), without permission from TwilightZebby, are expressly forbidden from using TwilightZebby's properties, code, and other works, as part of a training dataset for artificial intelligence, neural networks, or other generative systems.
+Additionally, any and all code, and all other products (digitial or physical), created and owned by TwilightZebby, may not be used to configure, test, debug, or augment any artificial intelligence, neural network, or other generative system.
+
+        * This prohibition applies even if the resulting system does not store, refer to or directly call from code, or other works owned by TwilightZebby.
+
+        * In short: You are banned from using anything created by TwilightZebby as part of any AI project.
+```
+
+---
+
 ## My Socials
 
 - [Tumblr](https://twilightzebby.tumblr.com)
