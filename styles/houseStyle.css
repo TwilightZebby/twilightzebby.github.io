@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(#313338, #010101);
+    padding: 0px;
+    margin: 0px 6%;
+    border: 0px;
+}
+
+
+#indexBackground {
+    background-image: linear-gradient(#313338, #010101);
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    background-color: #313338;
+    color: whitesmoke;
+}
+
+
+.contentSection {
+    color: whitesmoke;
+}
+
+
+a {
+    color: cyan;
+}
+
+
+h4 {
+    padding-top: 1%;
+}
+
+ul li {
+    margin: 5px;
+}
+
+
+/* Icons for "Where you can find me" section */
+#link-Discord {
+    list-style-image: url('../assets/logos/discord-logo.png');
+}
+
+#link-Twitch {
+    list-style-image: url('../assets/logos/twitch-logo.png');
+}
+
+#link-Cohost {
+    list-style-image: url('../assets/logos/cohost-eggbug.png');
+}
+
+#link-Reddit {
+    list-style-image: url('../assets/logos/reddit-logo.png');
+}
+
+#link-GitHub {
+    list-style-image: url('../assets/logos/github-logo.png');
+}
+
+#link-Tumblr {
+    list-style-image: url('../assets/logos/tumblr-logo.png');
+}
+
+#link-Steam {
+    list-style-image: url('../assets/logos/steam-logo.png');
+}
