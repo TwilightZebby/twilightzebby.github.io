@@ -5,6 +5,7 @@
 
         <title>TwilightZebby</title>
         <link rel="stylesheet" href="./styles/houseStyle.css">
+        <link rel="stylesheet" href="./styles/houseStyle-light.css">
 
         <meta charset="utf-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -18,10 +19,16 @@
         <meta name="theme-color" content="#07afde">
         <meta property="og:type" content="website">
 
+        <script src="scripts/theme-picker.js" type="text/javascript"></script>
+
     </head>
 
 
     <body>
+
+        <!-- Theme Switcher Button -->
+        <button id="themeButton" type="button" name="themeSwitcher" onclick="toggleTheme()">Switch Theme</button>
+
 
         <!-- Header -->
         <header class="center">

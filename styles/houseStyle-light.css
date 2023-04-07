@@ -1,17 +1,17 @@
-body {
-    background-image: linear-gradient(#313338, #010101);
+body.light-theme {
+    background-image: linear-gradient(whitesmoke, lightgray);
     padding: 0px;
     margin: 0px 6%;
     border: 0px;
 }
 
 
-#indexBackground {
-    background-image: linear-gradient(#313338, #010101);
+#indexBackground.light-theme {
+    background-image: linear-gradient(whitesmoke, lightgray);
 }
 
 
-.center {
+.center.light-theme {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -20,32 +20,32 @@ body {
 }
 
 
-header {
-    background-color: #313338;
-    color: whitesmoke;
+header.center.light-theme {
+    background-color: whitesmoke;
+    color: black;
 }
 
 
-.contentSection {
-    color: whitesmoke;
+.contentSection.light-theme {
+    color: black;
 }
 
 
-a {
-    color: cyan;
+.center.light-theme a {
+    color: #5865F2;
 }
 
 
-h4 {
+.center.light-theme h4 {
     padding-top: 1%;
 }
 
-ul li {
+.center.light-theme ul li {
     margin: 5px;
 }
 
 
-#themeButton {
+#themeButton.light-theme {
     padding: 12px 28px;
     text-align: center;
     text-decoration: none;
@@ -54,8 +54,8 @@ ul li {
     margin: 4px 2px 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white; 
-    color: black; 
+    background-color: black; 
+    color: whitesmoke; 
     border: 2px solid #5865F2;
     border-radius: 12px;
 }
@@ -67,30 +67,30 @@ ul li {
 
 
 /* Icons for "Where you can find me" section */
-#link-Discord {
-    list-style-image: url('../assets/logos/discord-logo.png');
+.light-theme #link-Discord {
+    list-style-image: url('../assets/logos/dark/discord-logo.png');
 }
 
-#link-Twitch {
+.light-theme #link-Twitch {
     list-style-image: url('../assets/logos/twitch-logo.png');
 }
 
-#link-Cohost {
+.light-theme #link-Cohost {
     list-style-image: url('../assets/logos/cohost-eggbug.png');
 }
 
-#link-Reddit {
+.light-theme #link-Reddit {
     list-style-image: url('../assets/logos/reddit-logo.png');
 }
 
-#link-GitHub {
-    list-style-image: url('../assets/logos/github-logo.png');
+.light-theme #link-GitHub {
+    list-style-image: url('../assets/logos/dark/github-logo.png');
 }
 
-#link-Tumblr {
-    list-style-image: url('../assets/logos/tumblr-logo.png');
+.light-theme #link-Tumblr {
+    list-style-image: url('../assets/logos/dark/tumblr-logo.png');
 }
 
-#link-Steam {
+.light-theme #link-Steam {
     list-style-image: url('../assets/logos/steam-logo.png');
 }
