@@ -3,6 +3,7 @@ body.light-theme {
     padding: 0px;
     margin: 0px 6%;
     border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -36,7 +37,21 @@ header.center.light-theme {
 }
 
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .center.light-theme h4 {
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 1%;
 }
 
