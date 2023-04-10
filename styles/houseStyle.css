@@ -32,6 +32,20 @@ header {
 }
 
 
+#pronounsLabel {
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px 4px 2px;
+    background-color: black; 
+    color: whitesmoke; 
+    /*border: 2px solid #5865F2;*/
+    border-radius: 24px;
+}
+
+
+
 a {
     color: cyan;
 }
