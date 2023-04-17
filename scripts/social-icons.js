@@ -13,6 +13,7 @@ function loadSocialIcons()
     let DiscordImg = bodyElement.querySelector("#link-Discord");
     let SteamImg = bodyElement.querySelector("#link-Steam");
     let PronounsImg = bodyElement.querySelector("#link-Pronouns");
+    let MalImg = bodyElement.querySelector("#link-mal");
 
 
     // Load the respective Social icons
@@ -24,6 +25,7 @@ function loadSocialIcons()
     DiscordImg.setAttribute("src", "./assets/logos/discord-logo.png");
     SteamImg.setAttribute("src", "./assets/logos/steam-logo.png");
     PronounsImg.setAttribute("src", "./assets/logos/pronouns-logo.png");
+    MalImg.setAttribute("src", "./assets/logos/mal-logo.png");
 
     return;
 }
