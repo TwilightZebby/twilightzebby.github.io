@@ -50,6 +50,42 @@ header.center.light-theme {
 }
 
 
+.light-theme#navMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    overflow: hidden;
+}
+
+.light-theme#navMenu li {
+    float: left;
+}
+
+.light-theme#navMenu a {
+    display: block;
+    padding: 8px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.light-theme#navMenu a:hover {
+    background-color: #5865F2;
+    color: whitesmoke;
+}
+
+.light-theme#navMenu .currentPage {
+    background-color: grey;
+    color: black;
+}
+
+
+
 h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -95,7 +131,7 @@ h3 {
 
 
 /* Icons for "Where you can find me" section */
-.light-theme #link-Discord {
+/* .light-theme #link-Discord {
     list-style-image: url('../assets/logos/dark/discord-logo.png');
 }
 
@@ -121,4 +157,4 @@ h3 {
 
 .light-theme #link-Steam {
     list-style-image: url('../assets/logos/steam-logo.png');
-}
+} */

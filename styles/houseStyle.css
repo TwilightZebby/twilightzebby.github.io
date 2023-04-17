@@ -45,6 +45,41 @@ header {
 }
 
 
+#navMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+#navMenu li {
+    float: left;
+}
+
+#navMenu a {
+    display: block;
+    padding: 8px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navMenu a:hover {
+    background-color: #5865F2;
+    color: whitesmoke;
+}
+
+#navMenu .currentPage {
+    background-color: grey;
+    color: black;
+}
+
+
 
 a {
     color: cyan;
@@ -96,7 +131,7 @@ ul li {
 
 
 /* Icons for "Where you can find me" section */
-#link-Discord {
+/* #link-Discord {
     list-style-image: url('../assets/logos/discord-logo.png');
 }
 
@@ -122,4 +157,4 @@ ul li {
 
 #link-Steam {
     list-style-image: url('../assets/logos/steam-logo.png');
-}
+} */
