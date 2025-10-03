@@ -1,8 +1,8 @@
-# TwiligthZebby's Website
+# TwiligthZebby's Website (Work in Progress)
 
 This is the source code for my personal website & portfolio.
 
-I'll put more into this README at a later date. :)
+I'll put more into this README at a later date once this isn't still WIP.
 
 <!-- # React + Vite
 
