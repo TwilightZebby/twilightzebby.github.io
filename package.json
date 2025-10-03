@@ -1,0 +1,35 @@
+{
+  "name": "zebbys-website",
+  "version": "1.0.0",
+  "description": "TwilightZebby's portfolio and personal website",
+  "private": true,
+  "type": "module",
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "twilightzebby",
+  "license": "SEE LICENSE IN https://github.com/TwilightZebby/license/blob/main/license.md",
+  "packageManager": "pnpm@10.5.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react-swc": "^3.11.0",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.23",
+    "globals": "^15.15.0",
+    "tailwindcss": "^4.1.14",
+    "vite": "^6.3.6"
+  }
+}
