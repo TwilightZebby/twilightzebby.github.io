@@ -51,7 +51,7 @@ function App() {
         </p>
       </div></a>
       <a href='https://dis.gd/bugs' className="card-link" target='_blank'><div className="card">
-        <img src={discordIconPng} className="card-icon" alt="Discord's logo" />
+        <img src={discordIconPng} className="card-icon-discord" alt="Discord's logo" />
         <p>
           Discord Testers<br />
           <p className="card-description">I am an active member of Discord's official "Testers" program - submitting bug reports and testing potential new updates.</p>
@@ -79,10 +79,10 @@ function App() {
         </p>
       </div></a>
       <a href='https://web.archive.org/web/20210725170051/youtube.com/watch?v=3xOkZ0_Rocs' className="card-link" target='_blank'><div className="card">
-        <img src={discordIconPng} className="card-icon" alt="Discord's logo" />
+        <img src={discordIconPng} className="card-icon-discord" alt="Discord's logo" />
         <p>
           Discord's "Imagine a Place" Short Film<br />
-          <p className="card-description">I give minor assistance towards Discord's "Imagine a Place" short film, which featured Danny DeVito.
+          <p className="card-description">I gave minor assistance towards Discord's "Imagine a Place" short film, which featured Danny DeVito.
             <br /><i>Released July 2021. Archived December 2021.</i></p>
         </p>
       </div></a>
@@ -96,7 +96,7 @@ function App() {
       <br />
       
       <p className="faded-text">
-        This website is open sourced on <a href='#' target='_blank'>GitHub here</a>.
+        This website is open sourced on <a href='https://github.com/TwilightZebby/twilightzebby.github.io' target='_blank'>GitHub here</a>.
       </p>
     </>
   )

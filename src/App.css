@@ -12,10 +12,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #757bf8aa);
 }
 
 hr {
@@ -42,10 +39,24 @@ hr {
   font-weight: bold;
   margin-top: 0.5rem;
   vertical-align: middle;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.card:hover {
+  filter: drop-shadow(0 0 2em #7b81f7c0);
 }
 
 .card .card-icon {
   height: 4rem;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(15%);
+}
+
+/* Discord Icon only gets its own CSS because otherwise it would look larger than all the other icons annoyingly */
+.card .card-icon-discord {
+  height: 3rem;
   float: left;
   position: relative;
   top: 50%;
