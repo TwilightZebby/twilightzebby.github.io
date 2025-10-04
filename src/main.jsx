@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import siteIconPng from '/zebbystoolsicon.png';
+import siteIconPng from '/zebbyicon.png';
 import twiliteIconPng from '/twiliteicon.png';
 import welcomeEditorIconPng from '/welcomeeditoricon.png';
 import homecordIconPng from '/homecordicon.png';
