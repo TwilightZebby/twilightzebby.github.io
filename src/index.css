@@ -64,19 +64,6 @@ h1 {
   margin-right: 0.3em;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -147,4 +134,48 @@ hr {
 
 .faded-text {
   color: #888;
+}
+
+
+
+/* LIGHT THEME VERSIONS */
+@media (prefers-color-scheme: light) {
+  :root {
+  color: #213547;
+  background-color: whitesmoke;
+  }
+  a {
+    color: #646cff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  .button:hover {
+    border-color: #0f0f0f;
+    border-width: 2px;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #757bf8aa);
+  }
+  hr {
+    border-color: #fbab6177;
+  }
+  .section-description {
+    color: #666666;
+  }
+  .card {
+    background-color: #0f0f0f18;
+  }
+  .card:hover {
+    filter: drop-shadow(0 0 2em #7b81f7c0);
+  }
+  .card-link .card-description {
+    color: #3d3d3d;
+  }
+  .card-link p {
+    color: #202224;
+  }
+  .faded-text {
+    color: #888;
+  }
 }
