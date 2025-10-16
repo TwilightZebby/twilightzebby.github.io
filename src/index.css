@@ -62,6 +62,7 @@ h1 {
 
 .social-buttons .button {
   margin-right: 0.3em;
+  display: inline-block;
 }
 
 .logo {
