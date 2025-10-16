@@ -113,7 +113,7 @@ createRoot(document.getElementById('root')).render(
         <img src={discordIconPng} className="card-icon-discord" alt="Discord's logo" />
         <p>
           Discord's "Imagine a Place" Short Film<br />
-          <p className="card-description">I gave minor assistance towards Discord's "Imagine a Place" short film, which featured Danny DeVito.
+          <p className="card-description">I gave minor creative assistance towards Discord's "Imagine a Place" short film, which featured Danny DeVito.
             <br /><i>Released July 2021. Archived December 2021.</i>
           </p>
         </p>
