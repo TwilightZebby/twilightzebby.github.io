@@ -62,13 +62,14 @@ h1 {
 
 .social-buttons .button {
   margin-right: 0.3em;
+  margin-bottom: 0.2em;
   display: inline-block;
 }
 
 .social-buttons br {
   display: block;
   content: '';
-  margin-bottom: 0.3em;
+  margin-bottom: 0.2em;
 }
 
 .logo {
