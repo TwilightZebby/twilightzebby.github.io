@@ -65,6 +65,12 @@ h1 {
   display: inline-block;
 }
 
+.social-buttons br {
+  display: block;
+  content: '';
+  margin-bottom: 0.3em;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
