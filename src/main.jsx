@@ -25,18 +25,18 @@ createRoot(document.getElementById('root')).render(
         <img src={siteIconPng} className="logo" alt="TwilightZebby's profile picture" />
       </div>
       <h1>TwilightZebby</h1>
-      <p>
-        Welcome to my personal website. Here you can find stuff I am working on, or have worked on. :)
+      <p id='personal-summary'>
+        An amateur Software Engineer who dabbles in Quality Assurance (QA) and Community Management on the side.
+        <br />Below you can find projects I am either currently working on, or have worked on. :)
       </p>
 
       <div className='social-buttons'>
         <a target='_blank' rel='noopener' href='https://discord.com/users/156482326887530498' className='button' style={{color: "white", backgroundColor: "#5865F2"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-discord' /></span> twilightzebby</a>
         <a target='_blank' rel='noopener' href='https://bsky.app/profile/twilightzebby.bsky.social' className='button' style={{color: "white", backgroundColor: "#1083fe"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-bluesky' /></span> @twilightzebby.bsky.social</a>
-        <a target='_blank' rel='noopener' href='https://twilightzebby.tumblr.com' className='button' style={{color: "white", backgroundColor: "#001935"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-tumblr' /></span> @twilightzebby</a>
+        <a target='_blank' rel='noopener' href='https://github.com/TwilightZebby' className='button' style={{color: "white", backgroundColor: "#333333"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-github' /></span> twilightzebby</a>
         <br />
         <br />
         <a target='_blank' rel='noopener' href='https://www.twitch.tv/twilightzebby' className='button' style={{color: "white", backgroundColor: "#6441a4"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-twitch' /></span> @twilightzebby</a>
-        <a target='_blank' rel='noopener' href='https://github.com/TwilightZebby' className='button' style={{color: "white", backgroundColor: "#333333"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-github' /></span> twilightzebby</a>
         <a target='_blank' rel='noopener' href='https://ko-fi.com/twilightzebby' className='button' style={{color: "white", backgroundColor: "#72a4f2"}}><span className='social-icon'><FontAwesomeIcon icon='fa-solid fa-mug-hot' /></span> twilightzebby</a>
       </div>
       <br />
