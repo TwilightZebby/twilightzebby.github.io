@@ -13,6 +13,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import all the icons in Free Solid, Free Regular, and Brands styles */
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
+import ProjectCard from '../components/project-card';
 
 library.add(fas, fab);
 
@@ -44,39 +45,33 @@ createRoot(document.getElementById('root')).render(
 
       <h3 className='section-heading'>Discord Apps (formerly "Bots")</h3>
       <p className='section-description'>Server & User-installable Apps in active development, for use on the chat app <a href='https://discord.com/' target='_blank'>Discord</a>.</p>
-      <a href='https://github.com/TwilightZebby/WelcomeEditor' className="card-link" target='_blank'><div className="card">
-        <img src={welcomeEditorIconPng} className="card-icon" alt="Welcome Editor's icon" />
-        <p>
-          Welcome Editor<br />
-          <p className="card-description">A useful Server App for allowing Servers to make use of Discord's Welcome Screen feature again.
-            <br /><i>First released in October 2024.</i>
-          </p>
-        </p>
-      </div></a>
-      <a href='https://github.com/TwilightZebby/TwiLite' className="card-link" target='_blank'><div className="card">
-        <img src={twiliteIconPng} className="card-icon" alt="TwiLite's icon" />
-        <p>
-          TwiLite<br />
-          <p className="card-description">A small but reliable multipurpose Discord App - usable both as a Server- and a User-installable App.
-            <br /><i>First released in Jan 2021. Re-released in Jan 2025.</i>
-          </p>
-        </p>
-      </div></a>
+      <ProjectCard
+        uriLink="https://github.com/TwilightZebby/WelcomeEditor"
+        iconSrc={welcomeEditorIconPng}
+        iconAlt="Welcome Editor's icon"
+        cardTitle="Welcome Editor"
+        cardDescription="A useful Server App for allowing Servers to make use of Discord's Welcome Screen feature again."
+        cardDate="First released in October 2024." />
+      <ProjectCard
+        uriLink="https://github.com/TwilightZebby/TwiLite"
+        iconSrc={twiliteIconPng}
+        iconAlt="TwiLite's icon"
+        cardTitle="TwiLite"
+        cardDescription="A small but reliable multipurpose Discord App - usable both as a Server- and a User-installable App."
+        cardDate="First released in Jan 2021. Re-released in Jan 2025." />
       <br />
 
       <hr />
 
       <h3 className='section-heading'>Volunteering</h3>
       <p className='section-description'>Active volunteering work I am doing for creators, companies, etc.</p>
-      <a href='https://twitch.tv/Dr1fterX' className="card-link" target='_blank'><div className="card">
-        <img src={drfterxIconPng} className="card-icon" alt="Dr1fterX's icon" />
-        <p>
-          Dr1fterX<br />
-          <p className="card-description">I am an active Admin for Twitch Streamer Dr1fterX's Discord Server, and Moderator for his Twitch chat.
-            <br /><i>Volunteering since December 2019.</i>
-          </p>
-        </p>
-      </div></a>
+      <ProjectCard
+        uriLink="https://twitch.tv/Dr1fterX"
+        iconSrc={drfterxIconPng}
+        iconAlt="Dr1fterX's icon"
+        cardTitle="Dr1fterX"
+        cardDescription="I am an active Admin for Twitch Streamer Dr1fterX's Discord Server, and Moderator for his Twitch chat."
+        cardDate="Volunteering since December 2019." />
       <a href='https://dis.gd/bugs' className="card-link" target='_blank'><div className="card">
         <img src={discordIconPng} className="card-icon-discord" alt="Discord's logo" />
         <p>
@@ -92,23 +87,18 @@ createRoot(document.getElementById('root')).render(
 
       <h3 className='section-heading'>Previous projects</h3>
       <p className='section-description'>Stuff I previously worked on, but have either been completed, archived, or I moved onto other things</p>
-      <a href='https://github.com/HomeCord/HomeCord' className="card-link" target='_blank'><div className="card">
-        <img src={homecordIconPng} className="card-icon" alt="HomeCord's icon" />
-        <p>
-          HomeCord<br />
-          <p className="card-description">A Discord Server App to showcase the Server's notable messages, threads, & events via a "home" channel.
-            <br /><i>Shut down in May 2025.</i>
-          </p>
-        </p>
-      </div></a>
-      <a href='https://github.com/TwilightZebby/UserStars' className="card-link" target='_blank'><div className="card">
-        <p>
-          UserStars<br />
-          <p className="card-description">Created to experiment with Discord's User Apps feature, this App allowed Users to grant other Users stars.<br />A twist on the classic 'starboard' Discord App.
-            <br /><i>Shut down in September 2024.</i>
-          </p>
-        </p>
-      </div></a>
+      <ProjectCard
+        uriLink="https://github.com/HomeCord/HomeCord"
+        iconSrc={homecordIconPng}
+        iconAlt="HomeCord's icon"
+        cardTitle="HomeCord"
+        cardDescription="A Discord Server App to showcase the Server's notable messages, threads, & events via a 'home' channel."
+        cardDate="Shut down in May 2025." />
+      <ProjectCard
+        uriLink="https://github.com/TwilightZebby/UserStars"
+        cardTitle="UserStars"
+        cardDescription="A twist on the classic 'starboard' App, this User App allowed granting other Users Stars."
+        cardDate="Shut down in September 2024." />
       <a href='https://web.archive.org/web/20210725170051/youtube.com/watch?v=3xOkZ0_Rocs' className="card-link" target='_blank'><div className="card">
         <img src={discordIconPng} className="card-icon-discord" alt="Discord's logo" />
         <p>
@@ -118,14 +108,11 @@ createRoot(document.getElementById('root')).render(
           </p>
         </p>
       </div></a>
-      <a href='https://github.com/TwilightZebby/CrimsonLevelsBot' className="card-link" target='_blank'><div className="card">
-        <p>
-          Crimson Levels<br />
-          <p className="card-description">A levelling Discord Server App, for Servers to grant XP/levels to their members based on text chat activity.
-            <br /><i>Shut down in July 2021.</i>
-          </p>
-        </p>
-      </div></a>
+      <ProjectCard
+        uriLink="https://github.com/TwilightZebby/CrimsonLevelsBot"
+        cardTitle="Crimson Levels"
+        cardDescription="A levelling Discord Server App, for Servers to grant XP/levels to their members based on text chat activity."
+        cardDate="Shut down in July 2021." />
       <br />
       
       <p className="faded-text">
