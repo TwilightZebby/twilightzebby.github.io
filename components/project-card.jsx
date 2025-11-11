@@ -13,7 +13,7 @@ import './project-card.css'
  */
 export default function ProjectCard({uriLink, iconSrc, iconAlt, cardTitle, cardDescription, cardDate}) {
     return (
-        <a href={uriLink} className="card-link" target='_blank'><div className="card">
+        <a href={uriLink} className="card-link" target={uriLink === "#" ? '_self' : '_blank'}><div className="card">
           {iconSrc != undefined ? <><img src={iconSrc} className="card-icon" alt={iconAlt} /></> : <></>}
           <p>
             {cardTitle}<br />
