@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import react from '@vitejs/plugin-react'
 import { fileURLToPath } from 'node:url'
 import { dirname, resolve } from 'node:path'
 
@@ -11,7 +11,7 @@ export default defineConfig({
     react()
   ],
   build: {
-    rollupOptions: {
+    rolldownOptions: {
       input: {
         main: resolve(__dirname, 'index.html')
       }

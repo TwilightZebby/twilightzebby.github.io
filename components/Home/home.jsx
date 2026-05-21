@@ -46,20 +46,34 @@ export default function HomePage() {
         </p>
 
         <div className='social-buttons'>
-          <a target='_blank' rel='noopener' href='https://discord.com/users/156482326887530498' className='button' style={{color: "white", backgroundColor: "#5865F2"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-discord' /></span> twilightzebby</a>
+          <a target='_blank' rel='noopener' href='https://discord.com/users/156482326887530498' className='button' style={{color: "white", backgroundColor: "#5865F2"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-discord' /></span> @twilightzebby</a>
           <a target='_blank' rel='noopener' href='https://bsky.app/profile/twilightzebby.bsky.social' className='button' style={{color: "white", backgroundColor: "#1083fe"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-bluesky' /></span> @twilightzebby.bsky.social</a>
           <a target='_blank' rel='noopener' href='https://github.com/TwilightZebby' className='button' style={{color: "white", backgroundColor: "#333333"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-github' /></span> twilightzebby</a>
           <br />
-          <br />
           <a target='_blank' rel='noopener' href='https://www.twitch.tv/twilightzebby' className='button' style={{color: "white", backgroundColor: "#6441a4"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-twitch' /></span> @twilightzebby</a>
           <a target='_blank' rel='noopener' href='https://steamcommunity.com/id/TwilightZebby/' className='button' style={{color: "black", backgroundColor: "#adadad"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-steam' /></span> twilightzebby</a>
-          <a target='_blank' rel='noopener' href='https://ko-fi.com/twilightzebby' className='button' style={{color: "white", backgroundColor: "#72a4f2"}}><span className='social-icon'><FontAwesomeIcon icon='fa-solid fa-mug-hot' /></span> twilightzebby</a>
+          <a target='_blank' rel='noopener' href='https://www.youtube.com/@twilightzebby' className='button' style={{color: "black", backgroundColor: "#fc0032"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-youtube' /></span> @twilightzebby</a>
+          <br />
+          <a target='_blank' rel='noopener' href='https://www.youtube.com/@twilightzebbyvod' className='button' style={{color: "black", backgroundColor: "#fc0032"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-youtube' /></span> @twilightzebbyvod</a>
+          <a target='_blank' rel='noopener' href='https://twilightzebby.tumblr.com/' className='button' style={{color: "white", backgroundColor: "#444444"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-tumblr' /></span> @twilightzebby</a>
+          <br />
+          <a target='_blank' rel='noopener' href='https://ko-fi.com/Q5Q513H0Y5'><img className='button' height='40' style={{border: "0px", height: "40px"}} src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Support me via ko-fi.com' /></a>
         </div>
-        <br />
         <hr />
 
+        {/* <h3 className='section-heading'>Placeholder Section</h3>
+        <p className='section-description'>Placeholder for when I release not-Discord-Bots stuff</p>
+        <ProjectCard
+          uriLink="#"
+          cardTitle="Name"
+          cardDescription="Description"
+          cardDate="First released in XXX 2026." />
+        <br />
+
+        <hr /> */}
+
         <h3 className='section-heading'>Discord Apps (formerly "Bots")</h3>
-        <p className='section-description'>Server & User-installable Apps in active development, for use on the chat app <a href='https://discord.com/' target='_blank'>Discord</a>.</p>
+        <p className='section-description'>Server & User-installable Apps, for use on the chat app <a href='https://discord.com/' target='_blank'>Discord</a>.</p>
         <ProjectCard
           uriLink="https://github.com/TwilightZebby/TwiLite"
           iconSrc={twiliteIconPng}

@@ -31,3 +31,6 @@
 - name: will not fix/do
   description: This will not be worked on
   color: 'ffffff'
+- name: affects:portfolio
+  description: This makes changes to Zebby's portfolio
+  color: 'FBCA04'

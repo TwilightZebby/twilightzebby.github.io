@@ -1,15 +1,16 @@
 {
   "name": "zebbys-website",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "TwilightZebby's portfolio and personal website",
   "private": true,
   "type": "module",
   "keywords": [
-    "portfolio"
+    "portfolio",
+    "personalwebsite"
   ],
   "author": "twilightzebby",
   "license": "SEE LICENSE IN https://github.com/TwilightZebby/license/blob/main/license.md",
-  "packageManager": "pnpm@10.5.2",
+  "packageManager": "pnpm@10.26.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,6 +24,7 @@
     "@fortawesome/free-regular-svg-icons": "7.2.0",
     "@fortawesome/free-solid-svg-icons": "7.2.0",
     "@fortawesome/react-fontawesome": "3.2.0",
+    "@vitejs/plugin-react": "6.0.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-router": "7.13.0"
@@ -31,7 +33,6 @@
     "@eslint/js": "9.39.3",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@vitejs/plugin-react-swc": "3.11.0",
     "eslint": "9.39.3",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "0.4.26",
@@ -40,7 +41,9 @@
   },
   "pnpm": {
     "overrides": {
-      "js-yaml@>=4.0.0 <4.1.1": "4.1.1"
+      "js-yaml@>=4.0.0 <4.1.1": "4.1.1",
+      "vite@<=6.4.1": ">=6.4.2",
+      "vite@>=6.0.0 <=6.4.1": ">=6.4.2"
     }
   }
 }
