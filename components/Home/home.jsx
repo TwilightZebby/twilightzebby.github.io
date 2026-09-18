@@ -36,7 +36,7 @@ export default function HomePage() {
                 <meta property="og:image:height" content="100" />
                 <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
                 <script id="discord:component-embed" type="application/json">
-                {
+                {{
                   "component": {
                     "type": 17,
                     "components": [
@@ -55,7 +55,7 @@ export default function HomePage() {
                       }
                     ]
                   }
-                }
+                }}
                 </script>
             </Helmet>
         </HelmetProvider>
