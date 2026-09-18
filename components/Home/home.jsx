@@ -27,7 +27,6 @@ export default function HomePage() {
             <Helmet>
                 <title>TwilightZebby's website</title>
                 <meta property="og:type" content="rich" />
-                <meta property="og:site_name" content="TwilightZebby's Website" />
                 <meta property="og:title" content="TwilightZebby's Website" />
                 <meta property="og:url" content="https://twilightzebby.github.io/" />
                 <meta property="og:description" content="TwilightZebby's personal website & portfolio." />
