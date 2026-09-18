@@ -35,7 +35,28 @@ export default function HomePage() {
                 <meta property="og:image:type" content="image/png" />
                 <meta property="og:image:height" content="100" />
                 <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
-                
+                <script id="discord:component-embed" type="application/json">
+                {
+                  "component": {
+                    "type": 17,
+                    "components": [
+                      {
+                        "type": 9,
+                        "accessory": {
+                          "type": 11,
+                          "media": { "url": "https://twilightzebby.github.io/zebbyicon.png" }
+                        },
+                        "components": [
+                          {
+                            "type": 10,
+                            "content": "## [TwilightZebby's Website](https://twilightzebby.github.io/)\nThe place you can find all of Zebby's socials and his portfolio of projects."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+                </script>
             </Helmet>
         </HelmetProvider>
         <div>
