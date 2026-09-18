@@ -7,7 +7,7 @@ import homecordIconPng from '/homecordicon.png';
 import drfterxIconPng from '/dr1fterxicon.png';
 import discordIconPng from '/discordicon.png';
 import ProjectCard from '../ProjectCard/project-card';
-import { Helmet, HelmetProvider } from '@dr.pogodin/react-helmet';
+import { HelmetProvider, MetaTags } from '@dr.pogodin/react-helmet';
 
 /* import all the icons in Free Solid, Free Regular, and Brands styles */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -24,17 +24,17 @@ export default function HomePage() {
     <StrictMode>
       <>
         <HelmetProvider>
-            <Helmet>
-                <title>TwilightZebby's website</title>
-                <meta property="og:type" content="rich" />
-                <meta property="og:title" content="TwilightZebby's Website" />
-                <meta property="og:url" content="https://twilightzebby.github.io/" />
-                <meta property="og:description" content="TwilightZebby's personal website & portfolio." />
-                <meta property="og:image" content="https://twilightzebby.github.io/zebbyicon.png" />
-                <meta property="og:image:type" content="image/png" />
-                <meta property="og:image:height" content="100" />
-                <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
-            </Helmet>
+            <MetaTags
+              title="TwilightZebby's Website"
+              description="The place you can find all of Zebby's socials and his portfolio of projects"
+              url="https://twilightzebby.github.io/"
+              image="https://twilightzebby.github.io/zebbyicon.png"
+              extraMetaTags={[
+                { name: "og:image:type", content: "image/png" },
+                { name: "og:image:height", content: "100" },
+                { name: "og:image:alt", content: "TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" },
+              ]}
+            />
         </HelmetProvider>
         <div>
           <img src={siteIconPng} className="logo" alt="TwilightZebby's profile picture" />
