@@ -26,7 +26,8 @@ export default function HomePage() {
         <HelmetProvider>
             <Helmet>
                 <title>TwilightZebby's website</title>
-                <meta property="og:type" content="website" />
+                <meta property="og:type" content="rich" />
+                <meta property="og:site_name" content="TwilightZebby's Website" />
                 <meta property="og:title" content="TwilightZebby's Website" />
                 <meta property="og:url" content="https://twilightzebby.github.io/" />
                 <meta property="og:description" content="TwilightZebby's personal website & portfolio." />
@@ -34,6 +35,7 @@ export default function HomePage() {
                 <meta property="og:image:type" content="image/png" />
                 <meta property="og:image:height" content="100" />
                 <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
+                
             </Helmet>
         </HelmetProvider>
         <div>
