@@ -98,14 +98,14 @@ export default function HomePage() {
         <h3 className='section-heading'>Discord Apps (formerly "Bots")</h3>
         <p className='section-description'>Server & User-installable Apps, for use on the chat app <a href='https://discord.com/' target='_blank'>Discord</a>.</p>
         <ProjectCard
-          uriLink="https://github.com/TwilightZebby/TwiLite"
+          uriLink="https://discord.com/discovery/applications/784058687412633601"
           iconSrc={twiliteIconPng}
           iconAlt="TwiLite's icon"
           cardTitle="TwiLite"
           cardDescription="A small but reliable multipurpose Discord App - usable both as a Server- and a User-installable App."
           cardDate="First released in Jan 2021. Re-released in Jan 2025." />
         <ProjectCard
-          uriLink="https://github.com/TwilightZebby/WelcomeEditor"
+          uriLink="https://discord.com/discovery/applications/1295097376712687759"
           iconSrc={welcomeEditorIconPng}
           iconAlt="Welcome Editor's icon"
           cardTitle="Welcome Editor"
