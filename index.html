@@ -4,6 +4,44 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/zebbyicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Only have these elements here, instead of dynamically injecting them, so that embed crawlers can actually see them -->
+    <!-- I will figure out how to dynamically inject them if I ever have multiple pages on this site... -->
+    <title>TwilightZebby's website</title>
+    <meta property="og:type" content="rich" />
+    <meta property="og:title" content="TwilightZebby's Website" />
+    <meta property="og:url" content="https://twilightzebby.github.io/" />
+    <meta property="og:description" content="The place you can find all of Zebby's socials and his portfolio of projects" />
+    <meta property="og:image" content="https://twilightzebby.github.io/zebbyicon.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:height" content="100" />
+    <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
+    <meta property="theme-color" content="#2496B5" />
+
+    <!-- For Discord's Component-powered Link Embeds -->
+    <script id="discord:component-embed" type="application/json">
+    {
+      "component": {
+        "type": 17,
+        "accent_color": 36150181,
+        "components": [
+          {
+            "type": 9,
+            "accessory": {
+              "type": 11,
+              "media": { "url": "https://twilightzebby.github.io/zebbyicon.png" }
+            },
+            "components": [
+              {
+                "type": 10,
+                "content": "## [TwilightZebby's Website](https://twilightzebby.github.io/)\nThe place you can find all of Zebby's socials and his portfolio of projects."
+              }
+            ]
+          }
+        ]
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
