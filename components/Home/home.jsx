@@ -36,8 +36,8 @@ export default function HomePage() {
           <br />
           <a target='_blank' rel='noopener' href='https://www.youtube.com/@twilightzebbyvod' className='button' style={{color: "black", backgroundColor: "#fc0032"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-youtube' /></span> @twilightzebbyvod</a>
           <a target='_blank' rel='noopener' href='https://twilightzebby.tumblr.com/' className='button' style={{color: "white", backgroundColor: "#444444"}}><span className='social-icon'><FontAwesomeIcon icon='fa-brands fa-tumblr' /></span> @twilightzebby</a>
-          {/* <br /> */}
-          {/* <a target='_blank' rel='noopener' href='mailto:someone@example.com' className='button' style={{color: "black", backgroundColor: "#34a853"}}><span className='social-icon'><FontAwesomeIcon icon='fa-solid fa-envelope' /></span> someone@example.com</a> */}
+          <br />
+          <a target='_blank' rel='noopener' href='mailto:business-twilightzebby@proton.me' className='button' style={{color: "black", backgroundColor: "#34a853"}}><span className='social-icon'><FontAwesomeIcon icon='fa-solid fa-envelope' /></span> business-twilightzebby@proton.me</a>
           <br />
           <a target='_blank' rel='noopener' href='https://ko-fi.com/Q5Q513H0Y5'><img className='button' height='40' style={{border: "0px", height: "40px"}} src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Support me via ko-fi.com' /></a>
         </div>
