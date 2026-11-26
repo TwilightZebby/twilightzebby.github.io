@@ -13,7 +13,9 @@ export default defineConfig({
   build: {
     rolldownOptions: {
       input: {
-        main: resolve(__dirname, 'index.html')
+        main: resolve(__dirname, 'index.html'),
+        portfolio: resolve(__dirname, 'portfolio.html'),
+        resources: resolve(__dirname, 'resources.html')
       }
     }
   }
