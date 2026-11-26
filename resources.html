@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/zebbyicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Only have these elements here, instead of dynamically injecting them, so that embed crawlers can actually see them -->
+    <!-- I will figure out how to dynamically inject them if I ever have multiple pages on this site... -->
+    <title>TwilightZebby's Resources</title>
+    <meta property="og:type" content="rich" />
+    <meta property="og:title" content="TwilightZebby's Resources" />
+    <meta property="og:url" content="https://twilightzebby.github.io/resources" />
+    <meta property="og:description" content="Documents & articles written by Zebby; either to serve as useful guides, or to combat misinformation." />
+    <meta property="og:image" content="https://twilightzebby.github.io/zebbyicon.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:height" content="100" />
+    <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
+    <meta property="theme-color" content="#2496B5" />
+
+    <!-- For Discord's Component-powered Link Embeds -->
+    <script id="discord:component-embed" type="application/json">
+    {
+      "component": {
+        "type": 17,
+        "accent_color": 2397877,
+        "components": [
+          {
+            "type": 9,
+            "accessory": {
+              "type": 11,
+              "media": { "url": "https://twilightzebby.github.io/zebbyicon.png" }
+            },
+            "components": [
+              {
+                "type": 10,
+                "content": "## [TwilightZebby's Resources](https://twilightzebby.github.io/resources)\nDocuments & articles written by Zebby; either to serve as useful guides, or to combat misinformation."
+              }
+            ]
+          }
+        ]
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/mainResources.jsx"></script>
+  </body>
+</html>

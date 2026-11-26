@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/zebbyicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Only have these elements here, instead of dynamically injecting them, so that embed crawlers can actually see them -->
+    <!-- I will figure out how to dynamically inject them if I ever have multiple pages on this site... -->
+    <title>TwilightZebby's Portfolio</title>
+    <meta property="og:type" content="rich" />
+    <meta property="og:title" content="TwilightZebby's Portfolio" />
+    <meta property="og:url" content="https://twilightzebby.github.io/portfolio" />
+    <meta property="og:description" content="All of the public projects and experience Zebby has worked on, or is currently working on." />
+    <meta property="og:image" content="https://twilightzebby.github.io/zebbyicon.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:height" content="100" />
+    <meta property="og:image:alt" content="TwilightZebby's avatar - a floating blue-hued ghost, designed similar to PacMan style ghosts, with round robotic ears" />
+    <meta property="theme-color" content="#2496B5" />
+
+    <!-- For Discord's Component-powered Link Embeds -->
+    <script id="discord:component-embed" type="application/json">
+    {
+      "component": {
+        "type": 17,
+        "accent_color": 2397877,
+        "components": [
+          {
+            "type": 9,
+            "accessory": {
+              "type": 11,
+              "media": { "url": "https://twilightzebby.github.io/zebbyicon.png" }
+            },
+            "components": [
+              {
+                "type": 10,
+                "content": "## [TwilightZebby's Portfolio](https://twilightzebby.github.io/portfolio)\nAll of the public projects and experience Zebby has worked on, or is currently working on."
+              }
+            ]
+          },
+          {
+            "type": 14,
+            "divider": true,
+            "spacing": 1
+          },
+          {
+            "type": 10,
+            "content": "### Active projects & experience\nA preview of all the currently active projects and experience Zebby is currently working on.\n\n- **Volunteering**\n  - [Volunteer QA for Discord](https://dis.gd/bugs)\n  - [Community Moderator for Dr1fterX](https://twitch.tv/Dr1fterX)\n- **Discord Apps/Bots**\n  - [TwiLite](https://discord.com/discovery/applications/784058687412633601)\n  - [Welcome Editor](https://discord.com/discovery/applications/1295097376712687759)\n\n-# *For the full portfolio, including past projects and experience, please visit Zebby's website.*"
+          }
+        ]
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/mainPortfolio.jsx"></script>
+  </body>
+</html>

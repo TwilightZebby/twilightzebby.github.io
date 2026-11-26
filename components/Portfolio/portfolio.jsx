@@ -1,0 +1,129 @@
+import { StrictMode } from 'react'
+import './portfolio.css'
+import twiliteIconPng from '/twiliteicon.png';
+import welcomeEditorIconPng from '/welcomeeditoricon.png';
+import homecordIconPng from '/homecordicon.png';
+import drfterxIconPng from '/dr1fterxicon.png';
+import discordIconPng from '/discordicon.png';
+import ProjectCard from '../ProjectCard/project-card';
+
+/* import all the icons in Free Solid, Free Regular, and Brands styles */
+/* import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fas, fab); */
+
+
+
+export default function Portfolio() {
+  return (
+    <StrictMode>
+      <>
+        <a id='return-home-link' href='./'>Return to Home</a>
+
+        <h1>TwilightZebby's Portfolio</h1>
+        <p id='personal-summary'>
+          Here is all the (public) stuff I have worked on in the past, and am currently working on in the present.
+        </p>
+        <hr />
+
+        {/* <h3 className='section-heading'>Placeholder Section</h3>
+        <p className='section-description'>Placeholder for when I release not-Discord-Bots stuff</p>
+        <ProjectCard
+          uriLink="#"
+          cardTitle="Name"
+          cardDescription="Description"
+          cardDate="First released in XXX 2026." />
+        <br />
+
+        <hr /> */}
+
+        <h3 className='section-heading'>Discord Apps (formerly "Bots")</h3>
+        <p className='section-description'>Server & User-installable Apps, for use on the chat app <a href='https://discord.com/' target='_blank'>Discord</a>.</p>
+        <ProjectCard
+          uriLink="https://discord.com/discovery/applications/784058687412633601"
+          iconSrc={twiliteIconPng}
+          iconAlt="TwiLite's icon"
+          cardTitle="TwiLite"
+          cardDescription="A small but reliable multipurpose Discord App - usable both as a Server- and a User-installable App."
+          cardDate="First released in Jan 2021. Re-released in Jan 2025." />
+        <ProjectCard
+          uriLink="https://discord.com/discovery/applications/1295097376712687759"
+          iconSrc={welcomeEditorIconPng}
+          iconAlt="Welcome Editor's icon"
+          cardTitle="Welcome Editor"
+          cardDescription="A useful Server App for allowing Servers to make use of Discord's Welcome Screen feature again."
+          cardDate="First released in October 2024." />
+        <br />
+
+        <hr />
+
+        <h3 className='section-heading'>Volunteering</h3>
+        <p className='section-description'>Active volunteering work I am doing for creators, companies, etc.</p>
+        <ProjectCard
+          uriLink="https://dis.gd/bugs"
+          iconSrc={discordIconPng}
+          iconAlt="Discord's logo"
+          cardTitle="Volunteer QA for Discord"
+          cardDescription="I am an active member of Discord's official 'Testers' program, submitting bug reports and testing potential new updates."
+          cardDate="Volunteering since July 2022." />
+        <ProjectCard
+          uriLink="https://twitch.tv/Dr1fterX"
+          iconSrc={drfterxIconPng}
+          iconAlt="Dr1fterX's icon"
+          cardTitle="Community Moderator for Dr1fterX"
+          cardDescription="I am an active Admin for Twitch Streamer Dr1fterX's Discord Server, and Moderator for his Twitch chat."
+          cardDate="Volunteering since December 2019." />
+        <br />
+
+        <hr />
+
+        <h3 className='section-heading'>Previous projects</h3>
+        <p className='section-description'>Stuff I previously worked on, but have either been completed, archived, or I moved onto other things</p>
+        <ProjectCard
+          uriLink="https://github.com/HomeCord/homecord.github.io"
+          iconSrc={homecordIconPng}
+          iconAlt="HomeCord's icon"
+          cardTitle="HomeCord (Website)"
+          cardDescription="A reimagining of my earlier HomeCord project, made as a new take on Discord Server-listing websites."
+          cardDate="Proof-of-concept made for Discord's Developer Buildathon 2025." />
+        <ProjectCard
+          uriLink="https://github.com/HomeCord/homecord"
+          iconSrc={homecordIconPng}
+          iconAlt="HomeCord's icon"
+          cardTitle="HomeCord (App)"
+          cardDescription="A Discord Server App to showcase the Server's notable messages, threads, & events via a 'home' channel."
+          cardDate="Shut down in May 2025." />
+        <ProjectCard
+          uriLink="https://github.com/TwilightZebby/UserStars"
+          cardTitle="UserStars"
+          cardDescription="A twist on the classic 'starboard' App, this User App allowed granting other Users Stars."
+          cardDate="Shut down in September 2024." />
+        <ProjectCard
+          uriLink="https://web.archive.org/web/20210725170051/youtube.com/watch?v=3xOkZ0_Rocs"
+          iconSrc={discordIconPng}
+          iconAlt="Discord's logo"
+          cardTitle="Volunteer Creative Assistant for Discord"
+          cardDescription="I gave minor creative assistance towards Discord's 'Imagine a Place' short film, which featured Danny DeVito."
+          cardDate="Released July 2021. Archived December 2021." />
+        <ProjectCard
+          uriLink="https://github.com/TwilightZebby/CrimsonLevelsBot"
+          cardTitle="Crimson Levels"
+          cardDescription="A levelling Discord Server App, for Servers to grant XP/levels to their members based on text chat activity."
+          cardDate="Shut down in July 2021." />
+        <ProjectCard
+          uriLink="#"
+          cardTitle="Web Designer at BrandFour"
+          cardDescription="In 1 week for work experience, I designed an updated website that a web design company had made for a charity."
+          cardDate="October 2015" />
+        <br />
+
+        <p className="faded-text">
+          This website is open sourced on <a href='https://github.com/TwilightZebby/twilightzebby.github.io' target='_blank'>GitHub here</a>.
+        </p>
+      </>
+    </StrictMode>
+  )
+}
